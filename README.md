@@ -13,7 +13,7 @@ enable the community packages as tools
 ```bash
 docker volume create n8n_data
 
-docker run --restart always --name n8n -e N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE=true -p 5678:5678 v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
+docker run --restart always --name n8n -e N8N_COMMUNITY_PACKAGES_ALLOW_TOOL_USAGE=true -p 5678:5678 -d -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
 ```
 
 2. install the n8n-nodes-mcp from within ui
