@@ -1,7 +1,7 @@
 # mcp-with-n8n
 the simplest way to custom create an ai agent, you will need the following
 1. docker desktop installed and running
-download the installer (here)[https://docs.docker.com/desktop/setup/install/windows-install/).
+download the installer [here](https://docs.docker.com/desktop/setup/install/windows-install/).
 3. thats it!
 
 # Steps
